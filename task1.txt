@@ -1,0 +1,16 @@
+
+void main()
+{
+  String num1 ="4569";
+  String num2 ="3569";
+  int n1 = int.parse(num1[0]);
+  int n2 = int.parse(num2[0]);
+  if(n1 % 2==0)
+  {
+    print("Even");
+  }
+  else
+  {
+     print("Odd");
+  }
+}
