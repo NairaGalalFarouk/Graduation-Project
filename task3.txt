@@ -1,0 +1,8 @@
+void main() {
+  String term1 = "Apple";
+  String term2 = "apple";
+  term1=term1[0].toUpperCase() + term1.substring(1);  
+  print(term1);
+  term2=term2[0].toUpperCase() + term2.substring(1);  
+  print(term2);
+}
