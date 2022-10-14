@@ -1,0 +1,20 @@
+void main() {
+int num1=1,num2=1,count=3,i;
+ List <int> result = [];
+  print(" Enter the number of sum : ");
+ //count=int.parse(stdin.readLineSync());
+while(count!=0)
+{
+    print(" Enter the numbers: ");
+   // num1=int.parse(stdin.readLineSync());
+   // num2=int.parse(stdin.readLineSync());
+    result.add(num1);
+    result.add(num2);
+    count--;
+}
+for(i=0;i<result.length;i+2)
+{
+    print(result[i] + result[i+1]);
+}
+
+}
