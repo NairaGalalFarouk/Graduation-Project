@@ -1,0 +1,8 @@
+void main() {
+
+    print("Enter string: ");
+    //String word =tring.parse(stdin.readLineSync());
+    String word = "hi";
+    print(word.toUpperCase());
+
+}
