@@ -1,0 +1,17 @@
+void main() {
+
+    print(" Enter the number: ");
+    //int num =int.parse(stdin.readLineSync());
+    int num=5;
+    List <int> L = [];
+    int i ;
+    for(i = 1; i <= num; i++)
+    {
+        L.add(i);
+    }
+    for(i= 0; i <L.length; i++)
+    {
+      print(L[i]);
+    }
+    
+}
