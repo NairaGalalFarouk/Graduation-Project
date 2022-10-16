@@ -1,0 +1,25 @@
+void main() {
+
+    print("Enter number of n: ");
+    //int N =int.parse(stdin.readLineSync());
+    int n=5;
+    List <int> L = [];
+    int i;
+    for(i=1;i<n+1;i++)
+    {
+       print("Enter the value of number $i");
+       //int input =int.parse(stdin.readLineSync());
+       //l.add(input);
+    }
+
+    for(i=0;i<L.length;i++)
+    {
+      if(L[i]>L[i+1])
+      {
+        int temp;
+        temp=L[i];
+        L[i]=L[i+1];
+        L[i+1]=temp;
+      }
+    }
+}
